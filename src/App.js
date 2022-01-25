@@ -3,18 +3,21 @@
 import './App.css';
 import Card from './components/card';
 import Interval from './components/interval';
+import Avg from './components/avg';
+import Sum from './components/sum';
+import RandomNumber from './components/random';
 
 function App() {
   return (
     <div className="App">
       <h1>React Redux Learning</h1>
       <div className='row'>
-        <Interval> ONE</Interval>
+        <Interval></Interval>
       </div>
       <div className='row'>
-        <Card title="Card #02" blue> TWO</Card>
-        <Card title="Card #03" green> Three</Card>
-        <Card title="Card #04" purple> Four</Card>
+        <Avg></Avg>
+        <Sum></Sum>
+        <RandomNumber></RandomNumber>
       </div>
     </div>
   );
