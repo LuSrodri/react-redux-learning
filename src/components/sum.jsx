@@ -6,14 +6,17 @@ import Card from './card';
 
 export default props => {
 
+    const min = parseInt(props.min)
+    const max = parseInt(props.max)
+
     return (
 
         <Card blue title="Sum">
             <div>
                 <span>
-                    <span>Result:</span>
-                    <strong>10</strong>
-                    
+                    <span>Result: </span>
+                    <strong>{(min + max)}</strong>
+
                 </span>
             </div>
         </Card >
