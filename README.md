@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# React Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Learning about React Redux and the main concepts. 
+
+"Redux is a predictable state container for JavaScript apps" - https://redux.js.org/introduction/getting-started
+
+<h2>Final Result: </h2>
+
+<img src="./finalResult.png">
+
+<h2>Other projects about React:</h2>
+
+Fundamentus React - https://github.com/LuSrodri/Fundamentos-React
+
+React Router - https://github.com/LuSrodri/react-router-learning
+
+React Hooks - https://github.com/LuSrodri/React-hooks-learning
+
+React Redux - https://github.com/LuSrodri/react-redux-learning
 
 ## Available Scripts
 
